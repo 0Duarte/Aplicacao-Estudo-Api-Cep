@@ -46,6 +46,6 @@ function chamarCep(evt) {
       completarTabela();
     })
     .catch((error) => {
-      alert("Erro ao buscar CEP");
+      alert("Erro ao buscar CEP, preencha todos os campos");
     });
 }
